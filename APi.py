@@ -6,12 +6,12 @@ app = Flask(__name__)
 # Database connection configuration
 DB_HOST = 'localhost'
 DB_USER = 'root'
-DB_PASSWORD = ''
+DB_PASSWORD = 'toor'  # Updated password
 DB_NAME = 'library'
 
 # Helper functions for database operations
 def connect_to_database():
-    return MySQLdb.connect(host=DB_HOST, user=DB_USER, password=DB_PASSWORD, db=DB_NAME)
+    return MySQLdb.connect(host='localhost', user='root', password='toor', db='library')
 
 def execute_query(query, params=None):
     connection = connect_to_database()
@@ -25,8 +25,20 @@ def execute_query(query, params=None):
     connection.close()
     return result
 
+# API Key verification decorator
+def require_api_key(func):
+    def decorated_function(*args, **kwargs):
+        api_key = request.headers.get('X-API-Key')
+        if api_key == '12345':
+            return func(*args, **kwargs)
+        else:
+            return jsonify({'message': 'Invalid API key'}), 401
+    decorated_function.__name__ = func.__name__  # Set the name of the decorated function
+    return decorated_function
+
 # API Endpoints
 @app.route('/login', methods=['POST'])
+@require_api_key
 def login():
     data = request.json
     username = data['username']
@@ -39,6 +51,7 @@ def login():
         return jsonify({'message': 'Invalid credentials'}), 401
 
 @app.route('/books', methods=['GET', 'POST'])
+@require_api_key
 def manage_books():
     if request.method == 'GET':
         # Retrieve all books from the database
