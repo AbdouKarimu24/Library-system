@@ -132,8 +132,8 @@
    <widget class="QTabWidget" name="tabWidget">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>0</y>
+      <x>120</x>
+      <y>30</y>
       <width>1021</width>
       <height>551</height>
      </rect>
@@ -141,11 +141,12 @@
     <property name="font">
      <font>
       <family>Segoe UI</family>
-      <pointsize>16</pointsize>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
      </font>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>3</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
@@ -154,11 +155,18 @@
      <widget class="QTableWidget" name="tableWidget">
       <property name="geometry">
        <rect>
-        <x>0</x>
-        <y>120</y>
+        <x>-20</x>
+        <y>110</y>
         <width>1011</width>
-        <height>391</height>
+        <height>671</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>9</pointsize>
+        <bold>true</bold>
+       </font>
       </property>
       <column>
        <property name="text">
@@ -221,6 +229,13 @@
         <height>41</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>9</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
       <item>
        <property name="text">
         <string>Retrieve</string>
@@ -235,7 +250,7 @@
      <widget class="QComboBox" name="comboBox_2">
       <property name="geometry">
        <rect>
-        <x>650</x>
+        <x>660</x>
         <y>40</y>
         <width>83</width>
         <height>41</height>
@@ -295,11 +310,18 @@
      <widget class="QLabel" name="label">
       <property name="geometry">
        <rect>
-        <x>460</x>
+        <x>440</x>
         <y>50</y>
-        <width>41</width>
-        <height>16</height>
+        <width>61</width>
+        <height>31</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>9</pointsize>
+        <bold>true</bold>
+       </font>
       </property>
       <property name="text">
        <string>Type</string>
@@ -314,6 +336,13 @@
         <height>21</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>9</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
       <property name="text">
        <string>Days</string>
       </property>
@@ -324,11 +353,18 @@
       </property>
       <property name="geometry">
        <rect>
-        <x>640</x>
-        <y>-20</y>
-        <width>381</width>
-        <height>581</height>
+        <x>700</x>
+        <y>20</y>
+        <width>321</width>
+        <height>541</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>9</pointsize>
+        <bold>true</bold>
+       </font>
       </property>
       <property name="styleSheet">
        <string notr="true"/>
@@ -348,7 +384,8 @@
        <property name="font">
         <font>
          <family>Segoe UI</family>
-         <pointsize>22</pointsize>
+         <pointsize>10</pointsize>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -363,6 +400,13 @@
          <width>131</width>
          <height>121</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>10</pointsize>
+         <bold>false</bold>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(48, 47, 47);
@@ -381,6 +425,23 @@ color: rgb(255, 255, 255);</string>
          <height>121</height>
         </rect>
        </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>10</pointsize>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:700; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(50, 50, 50);
 color: rgb(255, 255, 255);</string>
@@ -398,6 +459,13 @@ color: rgb(255, 255, 255);</string>
          <height>121</height>
         </rect>
        </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>10</pointsize>
+         <bold>false</bold>
+        </font>
+       </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(25, 35, 45);
 color: rgb(255, 255, 255);</string>
@@ -414,6 +482,13 @@ color: rgb(255, 255, 255);</string>
          <width>131</width>
          <height>121</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>10</pointsize>
+         <bold>false</bold>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(50, 50, 50);
@@ -446,8 +521,35 @@ color: rgb(255, 255, 255);</string>
         <height>41</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>9</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
       <property name="placeholderText">
        <string>Enter Client Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_30">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>40</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>9</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="placeholderText">
+       <string>Enter Book Title</string>
       </property>
      </widget>
     </widget>
@@ -463,6 +565,13 @@ color: rgb(255, 255, 255);</string>
         <width>1021</width>
         <height>511</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>10</pointsize>
+        <bold>false</bold>
+       </font>
       </property>
       <property name="currentIndex">
        <number>0</number>
@@ -530,6 +639,13 @@ color: rgb(255, 255, 255);</string>
           <height>41</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
        </widget>
        <widget class="QLineEdit" name="lineEdit_3">
         <property name="geometry">
@@ -539,6 +655,13 @@ color: rgb(255, 255, 255);</string>
           <width>291</width>
           <height>41</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
        <widget class="QComboBox" name="comboBox_3">
@@ -550,6 +673,13 @@ color: rgb(255, 255, 255);</string>
           <height>41</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
        </widget>
        <widget class="QComboBox" name="comboBox_4">
         <property name="geometry">
@@ -559,6 +689,13 @@ color: rgb(255, 255, 255);</string>
           <width>291</width>
           <height>41</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
        <widget class="QComboBox" name="comboBox_5">
@@ -570,6 +707,13 @@ color: rgb(255, 255, 255);</string>
           <height>41</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
        </widget>
        <widget class="QLineEdit" name="lineEdit_4">
         <property name="geometry">
@@ -579,6 +723,13 @@ color: rgb(255, 255, 255);</string>
           <width>281</width>
           <height>41</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
        <widget class="QPushButton" name="pushButton_7">
@@ -593,7 +744,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>21</pointsize>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <property name="text">
@@ -612,7 +764,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>20</pointsize>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <property name="text">
@@ -631,7 +784,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>21</pointsize>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <property name="text">
@@ -650,7 +804,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>21</pointsize>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <property name="text">
@@ -669,7 +824,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>21</pointsize>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <property name="text">
@@ -688,7 +844,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>21</pointsize>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <property name="text">
@@ -707,7 +864,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>21</pointsize>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <property name="text">
@@ -722,6 +880,13 @@ color: rgb(255, 255, 255);</string>
           <width>401</width>
           <height>261</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </widget>
@@ -738,6 +903,13 @@ color: rgb(255, 255, 255);</string>
           <height>41</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
        </widget>
        <widget class="QLabel" name="label_9">
         <property name="geometry">
@@ -751,7 +923,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>21</pointsize>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
          </font>
         </property>
         <property name="text">
@@ -767,6 +940,13 @@ color: rgb(255, 255, 255);</string>
           <height>41</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
        </widget>
        <widget class="QLineEdit" name="lineEdit_5">
         <property name="geometry">
@@ -776,6 +956,13 @@ color: rgb(255, 255, 255);</string>
           <width>281</width>
           <height>41</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
+         </font>
         </property>
        </widget>
        <widget class="QLabel" name="label_10">
@@ -790,7 +977,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>21</pointsize>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
          </font>
         </property>
         <property name="text">
@@ -809,7 +997,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>21</pointsize>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
          </font>
         </property>
         <property name="text">
@@ -828,7 +1017,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>21</pointsize>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
          </font>
         </property>
         <property name="text">
@@ -844,6 +1034,13 @@ color: rgb(255, 255, 255);</string>
           <height>41</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
        </widget>
        <widget class="QLineEdit" name="lineEdit_6">
         <property name="geometry">
@@ -853,6 +1050,13 @@ color: rgb(255, 255, 255);</string>
           <width>291</width>
           <height>41</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
+         </font>
         </property>
        </widget>
        <widget class="QLabel" name="label_13">
@@ -867,7 +1071,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>21</pointsize>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
          </font>
         </property>
         <property name="text">
@@ -886,7 +1091,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>20</pointsize>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
          </font>
         </property>
         <property name="text">
@@ -902,6 +1108,13 @@ color: rgb(255, 255, 255);</string>
           <height>41</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
        </widget>
        <widget class="QPushButton" name="pushButton_8">
         <property name="geometry">
@@ -915,7 +1128,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>21</pointsize>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
          </font>
         </property>
         <property name="text">
@@ -931,6 +1145,13 @@ color: rgb(255, 255, 255);</string>
           <height>41</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
        </widget>
        <widget class="QLabel" name="label_15">
         <property name="geometry">
@@ -944,7 +1165,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>20</pointsize>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
          </font>
         </property>
         <property name="text">
@@ -960,6 +1182,13 @@ color: rgb(255, 255, 255);</string>
           <height>51</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
         <property name="text">
          <string>Search</string>
         </property>
@@ -973,6 +1202,13 @@ color: rgb(255, 255, 255);</string>
           <height>51</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
         <property name="text">
          <string>Delete</string>
         </property>
@@ -985,6 +1221,13 @@ color: rgb(255, 255, 255);</string>
           <width>401</width>
           <height>261</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>false</bold>
+         </font>
         </property>
        </widget>
       </widget>
@@ -1002,6 +1245,13 @@ color: rgb(255, 255, 255);</string>
         <width>1021</width>
         <height>511</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>11</pointsize>
+        <bold>true</bold>
+       </font>
       </property>
       <property name="currentIndex">
        <number>0</number>
@@ -1049,6 +1299,13 @@ color: rgb(255, 255, 255);</string>
           <height>41</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>11</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
        </widget>
        <widget class="QPushButton" name="pushButton_22">
         <property name="geometry">
@@ -1062,7 +1319,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>21</pointsize>
+          <pointsize>11</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <property name="text">
@@ -1081,7 +1339,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>20</pointsize>
+          <pointsize>11</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <property name="text">
@@ -1097,6 +1356,13 @@ color: rgb(255, 255, 255);</string>
           <height>41</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>11</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
        </widget>
        <widget class="QLabel" name="label_32">
         <property name="geometry">
@@ -1110,7 +1376,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>20</pointsize>
+          <pointsize>11</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <property name="text">
@@ -1126,6 +1393,13 @@ color: rgb(255, 255, 255);</string>
           <height>41</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>11</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
        </widget>
        <widget class="QLabel" name="label_33">
         <property name="geometry">
@@ -1139,7 +1413,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>20</pointsize>
+          <pointsize>11</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <property name="text">
@@ -1160,6 +1435,13 @@ color: rgb(255, 255, 255);</string>
           <height>41</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
        </widget>
        <widget class="QLabel" name="label_42">
         <property name="geometry">
@@ -1173,7 +1455,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>20</pointsize>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <property name="text">
@@ -1192,7 +1475,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>21</pointsize>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <property name="text">
@@ -1208,6 +1492,13 @@ color: rgb(255, 255, 255);</string>
           <height>51</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="text">
          <string>Search</string>
         </property>
@@ -1220,6 +1511,13 @@ color: rgb(255, 255, 255);</string>
           <width>161</width>
           <height>51</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
+         </font>
         </property>
         <property name="text">
          <string>Delete</string>
@@ -1237,7 +1535,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>20</pointsize>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <property name="text">
@@ -1253,6 +1552,13 @@ color: rgb(255, 255, 255);</string>
           <height>41</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
        </widget>
        <widget class="QLineEdit" name="lineEdit_27">
         <property name="geometry">
@@ -1262,6 +1568,13 @@ color: rgb(255, 255, 255);</string>
           <width>281</width>
           <height>41</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
        <widget class="QLabel" name="label_34">
@@ -1276,7 +1589,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>20</pointsize>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <property name="text">
@@ -1295,7 +1609,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>20</pointsize>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <property name="text">
@@ -1310,6 +1625,13 @@ color: rgb(255, 255, 255);</string>
           <width>281</width>
           <height>41</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </widget>
@@ -1455,6 +1777,7 @@ color: rgb(255, 255, 255);</string>
         <font>
          <family>Segoe UI</family>
          <pointsize>16</pointsize>
+         <bold>true</bold>
         </font>
        </property>
        <property name="text">
@@ -1678,8 +2001,15 @@ color: rgb(255, 255, 255);</string>
         <height>511</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>10</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>2</number>
       </property>
       <widget class="QWidget" name="tab_7">
        <attribute name="title">
@@ -1697,7 +2027,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>18</pointsize>
+          <pointsize>12</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <column>
@@ -1718,7 +2049,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>20</pointsize>
+          <pointsize>12</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <property name="text">
@@ -1734,6 +2066,13 @@ color: rgb(255, 255, 255);</string>
           <height>41</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>12</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
        </widget>
        <widget class="QLabel" name="label_26">
         <property name="geometry">
@@ -1747,7 +2086,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>21</pointsize>
+          <pointsize>12</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <property name="text">
@@ -1772,6 +2112,7 @@ color: rgb(255, 255, 255);</string>
          <font>
           <family>Segoe UI</family>
           <pointsize>20</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <property name="text">
@@ -1801,6 +2142,7 @@ color: rgb(255, 255, 255);</string>
          <font>
           <family>Segoe UI</family>
           <pointsize>21</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <property name="text">
@@ -1820,6 +2162,7 @@ color: rgb(255, 255, 255);</string>
          <font>
           <family>Segoe UI</family>
           <pointsize>18</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <column>
@@ -1845,7 +2188,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>20</pointsize>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <property name="text">
@@ -1861,6 +2205,13 @@ color: rgb(255, 255, 255);</string>
           <height>41</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
        </widget>
        <widget class="QLabel" name="label_28">
         <property name="geometry">
@@ -1874,7 +2225,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>21</pointsize>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <property name="text">
@@ -1893,7 +2245,8 @@ color: rgb(255, 255, 255);</string>
         <property name="font">
          <font>
           <family>Segoe UI</family>
-          <pointsize>18</pointsize>
+          <pointsize>10</pointsize>
+          <bold>true</bold>
          </font>
         </property>
         <column>
@@ -1936,7 +2289,7 @@ color: rgb(255, 255, 255);</string>
      <x>0</x>
      <y>0</y>
      <width>1158</width>
-     <height>22</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>
